@@ -1,0 +1,41 @@
+.a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.a:hover {
+    text-decoration: underline;
+}
+
+.a:focus {
+    color: brown;
+}
+
+.nav-real {
+    width: 1440px;
+}
+
+.nav-main {
+    width: 817px;
+}
+
+.nav-other {
+    width: 132px;
+}
+
+.main-name {
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+}
+
+.other {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 41px;  
+    letter-spacing: -0.01em;
+    /* padding: 0 20px; */
+}

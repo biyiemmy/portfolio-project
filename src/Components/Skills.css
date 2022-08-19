@@ -1,0 +1,150 @@
+.skills-main h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 66px;
+    letter-spacing: -0.03em;
+}
+
+.skills-main p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #4D4D4D;
+}
+
+.wrapper {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills h2 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #000;
+    font-size: 20px;
+}
+
+.progress-bar {
+    /* background: #959595; */
+    width: 550px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.progress-bar div {
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}
+
+.progress-bar div span {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #D3DCF8;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #2351DC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.html {
+    background: #2351DC;
+    animation: html 1s linear forwards;
+}
+
+.css {
+    background: #2351DC;
+    animation: css 1s linear forwards;
+}
+
+.js {
+    background: #2351DC;
+    animation: js 1s linear forwards;
+}
+
+.py {
+    background: #2351DC;
+    animation: py 1s linear forwards;
+}
+
+.react {
+    background: #2351DC;
+    animation: react 1s linear forwards;
+}
+
+.django {
+    background: #2351DC;
+    animation: django 1s linear forwards;
+}
+
+.html span {
+    border: 1px solid #2351DC;
+}
+
+.css span {
+    border: 1px solid #2351DC;
+}
+
+.js span {
+    border: 1px solid #2351DC;
+}
+
+.py span {
+    border: 1px solid #2351DC;
+}
+
+.react span {
+    border: 1px solid #2351DC;
+}
+
+.django span {
+    border: 1px solid #2351DC;
+}
+
+
+@keyframes html {
+    100% {
+        width: 90%
+    }
+}
+
+@keyframes css {
+    100% {
+        width: 85%
+    }
+}
+
+@keyframes js {
+    100% {
+        width: 60%
+    }
+}
+
+@keyframes py {
+    100% {
+        width: 60%
+    }
+}
+
+@keyframes react {
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes django {
+    100% {
+        width: 65%
+    }
+}

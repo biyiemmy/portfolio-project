@@ -1,0 +1,30 @@
+.about {
+    width: 1440px;
+    max-width: 100%;
+    height: 434px;
+    padding: 100px 0;
+    background-color: #F6F8FE;
+}
+
+.about-main h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 66px;
+    letter-spacing: -0.03em;
+
+}
+
+.about-main p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.icons {
+    border-radius: 50%;
+    border: 1px solid #2351DC;
+    padding: 0 5px;
+    margin: 0 5px;
+}
