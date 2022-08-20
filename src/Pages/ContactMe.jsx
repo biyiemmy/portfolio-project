@@ -5,15 +5,20 @@ import {
   Envelope,
   Telephone,
 } from "react-bootstrap-icons";
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
 
 const ContactMe = () => {
   return (
     <>
       <div
-        className="my-5 d-flex justify-content-around"
+        className="d-flex justify-content-around"
         style={{ width: "1440px", maxWidth: "100%" }}
       >
-        <div className="container" style={{ width: "790px" }}>
+        <div
+          className=" d-flex flex-column min-vh-100 justify-content-center align-items-center "
+          style={{ width: "790px" }}
+        >
           <h3>Get In Touch.</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras <br />{" "}
@@ -51,9 +56,50 @@ const ContactMe = () => {
           </div>
         </div>
 
-        <div style={{ width: "650px", backgroundColor: "#1C41B0" }}>
+        <div
+          className="bg-primary text-white d-flex flex-column min-vh-100 justify-content-center align-items-left px-5"
+          style={{ width: "650px" }}
+        >
           <h3>Need a Service?</h3>
           <h4>Send A Message</h4>
+
+          <div>
+            <Form hasValidation className="pt-3">
+              <Form.Group className="mb-3">
+                <Form.Label>Fullname:</Form.Label>
+                <Form.Control
+                  type="text"
+                  placeholder="Enter Your Fullname..."
+                />
+                {/* <Form.Text className="text-muted text-danger">
+                  We'll never share your email with anyone else.
+                </Form.Text> */}
+              </Form.Group>
+
+              <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Label>Email:</Form.Label>
+                <Form.Control
+                  type="email"
+                  placeholder="Enter Your Email Address..."
+                />
+              </Form.Group>
+              {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                <Form.Check type="checkbox" label="Check me out" />
+              </Form.Group> */}
+
+              <Form.Group
+                className="mb-3"
+                controlId="exampleForm.ControlTextarea1"
+              >
+                <Form.Label>Write A Message:</Form.Label>
+                <Form.Control as="textarea" rows={5} />
+              </Form.Group>
+
+              <Button variant="" className="bg-white text-primary text-center" type="submit">
+                Send Message
+              </Button>
+            </Form>
+          </div>
         </div>
       </div>
     </>

@@ -1,17 +1,12 @@
 import "./NavBar.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Github, Twitter, Linkedin } from "react-bootstrap-icons";
-import HomePage from "../Pages/HomePage";
-import AboutMe from "../Pages/AboutMe";
-import ContactMe from "../Pages/ContactMe";
-import Projects from "../Pages/Projects";
-import Services from "../Pages/Services";
 
 const NavBar = () => {
   return (
     <>
-      <Router>
-        <div className="container d-flex justify-content-between nav-real pt-5">
+      <div className="nav-unreal fixed-top mb-5 py-2">
+        <div className="container d-flex justify-content-between nav-real">
           <ul className="d-flex justify-content-between text-center list-unstyled nav-main">
             <li className="">
               <Link className="a main-name" to="/">
@@ -46,15 +41,7 @@ const NavBar = () => {
             <Linkedin className="icons" color="royalblue" size={30} />
           </div>
         </div>
-
-        {/* <Routes>
-          <Route exact path="/" element={<HomePage />}></Route>
-          <Route exact path="/about" element={<AboutMe />}></Route>
-          <Route exact path="/contact" element={<ContactMe />}></Route>
-          <Route exact path="/projects" element={<Projects />}></Route>
-          <Route exact path="/services" element={<Services />}></Route>
-        </Routes> */}
-      </Router>
+      </div>
     </>
   );
 };

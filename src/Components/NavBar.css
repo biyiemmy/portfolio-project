@@ -11,6 +11,11 @@
     color: brown;
 }
 
+.nav-unreal {
+    background: #F6F8FE;
+    margin-bottom: 100px;
+}
+
 .nav-real {
     width: 1440px;
 }
@@ -35,7 +40,14 @@
     font-style: normal;
     font-weight: 500;
     font-size: 1rem;
-    line-height: 41px;  
+    line-height: 41px;
     letter-spacing: -0.01em;
     /* padding: 0 20px; */
+}
+
+.icons {
+    border-radius: 50%;
+    border: 1px solid #2351DC;
+    padding: 0 5px;
+    margin: 0 5px;
 }
