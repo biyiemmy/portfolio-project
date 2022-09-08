@@ -18,10 +18,9 @@ const ContactMe = () => {
             style={{}}
           >
             <h3>Get In Touch.</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras{" "}
-              <br /> nec sollicitudin tellus. Phasellus ac nisi augue.
-            </p>
+            <h7 className="text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </h7>
             <div className="icon d-flex pt-3">
               <Github className="icons" color="royalblue" size={30} />
               <Twitter className="icons" color="royalblue" size={30} />

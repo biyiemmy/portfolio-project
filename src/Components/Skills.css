@@ -15,10 +15,10 @@
 }
 
 .wrapper {
-    max-width: 100%;
+    /* max-width: 100%; */
     /* height: 100vh; */
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
 }
@@ -147,5 +147,13 @@
 @keyframes django {
     100% {
         width: 65%
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .progress-bar {
+        width: 350px;
+        height: 10px;
+        border-radius: 10px;
     }
 }
