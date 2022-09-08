@@ -10,15 +10,15 @@ const Skills = () => {
         </div>
 
         <div class="container wrapper">
-          <div class="skills d-flex">
-            <div>
+          <div class="skills row">
+            <div className="col-md-6">
               <h2>HTML</h2>
               <div class="progress-bar">
                 <div class="html">
                   <span>90%</span>
                 </div>
               </div>
-                
+
               <h2>Python</h2>
               <div class="progress-bar">
                 <div class="py">
@@ -34,7 +34,7 @@ const Skills = () => {
               </div>
             </div>
 
-            <div>
+            <div className="col-md-6">
               <h2>CSS</h2>
               <div class="progress-bar">
                 <div class="css">

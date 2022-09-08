@@ -13,7 +13,6 @@ const NavBar = () => {
                 biyiemmy
               </Link>
             </li>
-            
 
             <li>
               <Link className="a other" to="/about">

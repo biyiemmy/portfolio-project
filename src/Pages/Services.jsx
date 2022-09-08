@@ -16,8 +16,8 @@ const Services = () => {
             </p>
           </div>
 
-          <div>
-            <div className="d-flex justify-content-between">
+          <div className="">
+            <div className="d-sm-block d-md-flex justify-content-between">
               <CardService
                 image={Picture}
                 text={"Training"}

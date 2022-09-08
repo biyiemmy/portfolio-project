@@ -4,7 +4,7 @@ import "./Card.css";
 const CardService = ({ image, text, subText }) => {
   return (
     <>
-      <div className="w-50 my-3 py-3 mx-5 card-service">
+      <div className="w-50 my-3 py-3 mx-3 card-service">
         <div className="text-center">
           <img src={image} alt="" style={{ width: "64px", height: "56px" }} />
           </div>
