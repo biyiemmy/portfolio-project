@@ -7,22 +7,20 @@ const NavBar = () => {
     <>
       <div className="nav-unreal fixed-top mb-5 py-2">
         <div className="container d-flex justify-content-between nav-real">
-          <ul className="d-flex justify-content-between text-center list-unstyled nav-main">
+          <ul className="d-flex justify-content-between text-center list-unstyled nav-main ">
             <li className="">
               <Link className="a main-name" to="/">
-                Adebiyi Emmanuel
+                biyiemmy
               </Link>
             </li>
+            
+
             <li>
               <Link className="a other" to="/about">
                 About Me
               </Link>
             </li>
-            <li>
-              <Link className="a other" to="/contact">
-                Contact Me
-              </Link>
-            </li>
+
             <li>
               <Link className="a other" to="/projects">
                 Projects
@@ -31,6 +29,11 @@ const NavBar = () => {
             <li>
               <Link className="a other" to="/services">
                 Services
+              </Link>
+            </li>
+            <li>
+              <Link className="a other" to="/contact">
+                Contact Me
               </Link>
             </li>
           </ul>

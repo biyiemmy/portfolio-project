@@ -65,29 +65,6 @@ const Services = () => {
               />
             </div>
 
-            <div className="d-flex justify-content-between">
-              <CardService
-                image={Picture}
-                text={"Training"}
-                subText={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec sollicitudin tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec sollicitudin tellus."
-                }
-              />
-              <CardService
-                image={Picture}
-                text={"Training"}
-                subText={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec sollicitudin tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec sollicitudin tellus."
-                }
-              />
-              <CardService
-                image={Picture}
-                text={"Training"}
-                subText={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec sollicitudin tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec sollicitudin tellus."
-                }
-              />
-            </div>
           </div>
         </div>
       </div>
