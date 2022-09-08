@@ -6,7 +6,7 @@ import TrackVisibility from "react-on-screen";
 
 const Home = () => {
   return (
-    <div className="container font-monospace mt-5 row">
+    <div className="container mt-5 row">
       <div className="col-md-8 text-center">
         <TrackVisibility>
           {({ isVisible }) => (
@@ -43,7 +43,7 @@ const Home = () => {
         </TrackVisibility>
       </div>
 
-      <div className="col-md-4 text-center">
+      <div className="col-md-4  text-center">
         <TrackVisibility>
           {({ isVisible }) => (
             <div

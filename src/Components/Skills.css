@@ -152,8 +152,7 @@
 
 @media only screen and (max-width:992px) {
     .progress-bar {
-        width: 350px;
-        height: 10px;
-        border-radius: 10px;
+        width: 330px;
+
     }
 }
