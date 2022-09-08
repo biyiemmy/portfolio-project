@@ -16,8 +16,8 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="">
-            <div className="d-sm-block d-md-flex justify-content-between">
+          <div>
+            <div className="row">
               <CardService
                 image={Picture}
                 text={"Training"}
@@ -41,7 +41,7 @@ const Services = () => {
               />
             </div>
 
-            <div className="d-flex justify-content-between">
+            <div className="row">
               <CardService
                 image={Picture}
                 text={"Training"}

@@ -14,7 +14,7 @@ const ContactMe = () => {
       <div className="row" style={{}}>
         <div className="col-md-6">
           <div
-            className="d-flex flex-column min-vh-100 justify-content-center align-items-center "
+            className="d-flex flex-column min-vh-50 justify-content-center align-items-center"
             style={{}}
           >
             <h3>Get In Touch.</h3>
